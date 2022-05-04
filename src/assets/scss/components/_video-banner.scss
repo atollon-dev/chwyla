@@ -1,0 +1,204 @@
+.video-banner {
+
+  &__inner {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+
+    video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+    }
+
+    .text-first {
+      text-align: center;
+      font-size: 14px;
+      position: absolute;
+      width: 100%;
+      bottom: 110px;
+      color: #e2ded5;
+      p {
+        color: #e2ded5;
+        font-size: 14px;
+      }
+      a {
+        color: #e2ded5;
+      }
+
+      @include breakpoint (medium) {
+        bottom: 40px;
+        font-size: 16px;
+      }
+
+      button {
+        margin-bottom: 20px;
+        color: rgba(#000, 0.58);
+        border-radius: 1px;
+        border: 0;
+        padding: 5px 20px;
+        font-size: 13px;
+        cursor: pointer;
+        background: #DAD8D0;
+        box-shadow: none;
+        &:focus {
+          outline: 0;
+        }
+      }
+    }
+
+    .content {
+      max-width: 220px;
+      width: 100%;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: auto;
+      position: absolute;
+      z-index: 1;
+
+      @include breakpoint (medium) {
+        top: 50%;
+        max-width: 280px;
+        width: 100%;
+      }
+
+    }
+  }
+}
+
+.contact-form {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background: #8B898E;
+  transform: translateX(100%);
+  transition: all ease 0.5s;
+  z-index: 10;
+  @include breakpoint(medium) {
+    width: 575px;
+  }
+  &__inner {
+    padding: 35px;
+    overflow-y: scroll;
+    height: 100vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    @include breakpoint(medium) {
+      padding: 65px;
+    }
+  }
+  &__close {
+    font-size: 13px;
+    color: #DAD8D0;
+    margin-bottom: 60px;
+    display: block;
+    cursor: pointer;
+    @include breakpoint(medium) {
+      margin-bottom: 100px;
+    }
+  }
+  &__success {
+    h4 {
+      font-size: 24px;
+      font-weight: 500;
+      color: #DAD8D0;
+      margin-bottom: 40px;
+    }
+    p {
+      color: #DAD8D0;
+    }
+  }
+  .form {
+    h4 {
+      font-size: 24px;
+      font-weight: 500;
+      color: #DAD8D0;
+      margin-bottom: 40px;
+    }
+    &__row {
+      &--select {
+        position: relative;
+        &:after {
+          pointer-events: none;
+          content: '';
+          background-image: url('../images/down-arrow.svg');
+          background-size: cover;
+          width: 10px;
+          height: 6px;
+          position: absolute;
+          top: 15px;
+          right: 15px;
+        }
+      }
+      input {
+        color: #DAD8D0;
+        border: 1px solid #DAD8D0;
+        padding: 5px 15px;
+        background: transparent;
+        font-weight: 300;
+        border-radius: 1px;
+        width: 100%;
+        font-size: 16px;
+        box-shadow: none;
+        @include breakpoint(medium) {
+          font-size: 13px;
+        }
+        &:focus {
+          outline: 0;
+        }
+        &::placeholder {
+          opacity: 1;
+        }
+      }
+      select {
+        color: #DAD8D0;
+        border: 1px solid #DAD8D0;
+        padding: 5px 15px;
+        background: transparent;
+        font-weight: 300;
+        border-radius: 1px;
+        width: 100%;
+        font-size: 16px;
+        appearance: none;
+        box-shadow: none;
+        &:focus {
+          outline: 0;
+        }
+        @include breakpoint(medium) {
+          font-size: 13px;
+        }
+        &::placeholder {
+          opacity: 1;
+        }
+      }
+      button {
+        color: rgba(#000, 0.58);
+        border-radius: 1px;
+        border: 0;
+        padding: 5px 30px;
+        font-size: 13px;
+        cursor: pointer;
+        background: #DAD8D0;
+        margin-top: 30px;
+        box-shadow: none;
+        &:focus {
+          outline: 0;
+        }
+      }
+      margin-bottom: 18px;
+    }
+  }
+  &.active {
+    transform: translateX(0);
+  }
+}
