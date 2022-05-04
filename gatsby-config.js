@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Nature - By Cube`,
-    description: `Uncompromised Living • 49 Esplanade Cotton Tree • Daniel Mulder 0437 171 007`,
+    title: `Chwyla - Real Estate`,
+    description: '',
     author: `@CodeDrips`,
   },
   plugins: [
