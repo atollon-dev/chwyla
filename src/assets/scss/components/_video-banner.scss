@@ -186,13 +186,13 @@
         }
       }
       button {
-        color: rgba(#000, 0.58);
+        color: #6e6e6e;
         border-radius: 1px;
-        border: 0;
+        border: 1px solid #6e6e6e;
         padding: 5px 30px;
         font-size: 13px;
         cursor: pointer;
-        background: #DAD8D0;
+        background: transparent;
         margin-top: 30px;
         box-shadow: none;
         &:focus {
