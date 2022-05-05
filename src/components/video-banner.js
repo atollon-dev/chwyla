@@ -124,10 +124,8 @@ class VideoBanner extends Component {
               <img className="image-first" src={Logo} alt="Chwyla"/>
             </div>
             <div className="text-first">
-              <button className='btn' onClick={() => this._toggleForm()}>Register Your Interest</button>
-              <button className='btn' onClick={() => this._toggleForm()}>Register Your Interest</button>
-              <p>Uncompromised Living • 49 The Esplanade Cotton Tree<br />
-              Daniel Mulder <a href="tel:+61437171007">0437 171 007</a></p>
+              <button className='btn' onClick={() => this._toggleForm()}>View Listing</button>
+              <button className='btn' onClick={() => this._toggleForm()}>Contact</button>>
             </div>
           </div>
         </div>
