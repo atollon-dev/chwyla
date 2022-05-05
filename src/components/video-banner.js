@@ -79,13 +79,6 @@ class Form extends Component {
           <input type='text' name='phone' placeholder='Phone' onChange={this.handleChange} required  />
         </div>
         <div className='form__row form__row--select'>
-          <select name='interested_in' onChange={this.handleChange}>
-            <option>Interested In</option>
-            <option value='Half Floor'>Half floor 3BR $2.6MN</option>
-            <option value='Full Floor'>Full floor 4BR $7MN</option>
-          </select>
-        </div>
-        <div className='form__row form__row--select'>
           <select name='id_like_to' onChange={this.handleChange}>
             <option>I'd like to</option>
             <option value='Make appointment at display'>Make appointment at display</option>
