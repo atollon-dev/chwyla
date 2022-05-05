@@ -60,8 +60,8 @@ class Form extends Component {
 
     return (
       <form {...props}>
-        <p>P.O. Box 200<br>
-          Doreen 3754<br /></p>
+        <p>P.O. Box 200<br><br />
+          Doreen 3754</p>
         <p>
           03 8600 9995 <br>
           paul@chwyla.com.au<br /></p>
