@@ -60,11 +60,12 @@ class Form extends Component {
 
     return (
       <form {...props}>
+     
       <div className='contact-form__content'>
-  <p>P.O. Box 200<br />
-  Doreen 3754</p>
-  <p><a href="tel:+61386009995">03 8600 9995</a><br />
-  <a href="mailto:paul@chwyla.com.au">paul@chwyla.com.au</a></p>
+    <p>P.O. Box 200<br />
+    Doreen 3754</p>
+    <p><a href="tel:+61386009995">03 8600 9995</a><br />
+    <a href="mailto:paul@chwyla.com.au">paul@chwyla.com.au</a></p>
 </div>
         
         <div className='form__row'>
@@ -122,7 +123,7 @@ class VideoBanner extends Component {
               <img className="image-first" src={Logo} alt="Chwyla"/>
             </div>
             <div className="text-first">
-            <button className='btn' href="www.realestate.com.au">View Listing</button>
+            <button className='btn' onClick={() => this._toggleForm()}>View Listing</button>
               <button className='btn' onClick={() => this._toggleForm()}>Contact</button>
 
               
