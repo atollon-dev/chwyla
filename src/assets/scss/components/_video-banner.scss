@@ -43,8 +43,9 @@
         padding: 5px 20px;
         font-size: 13px;
         cursor: pointer;
-        background: #DAD8D0;
+        background: transparent;
         box-shadow: none;
+        margin-right: 20px;
         &:focus {
           outline: 0;
         }
