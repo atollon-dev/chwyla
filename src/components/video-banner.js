@@ -61,10 +61,10 @@ class Form extends Component {
     return (
       <form {...props}>
         <p>P.O. Box 200<br>
-          Doreen 3754
-          <br>
+          Doreen 3754</p>
+        <p>
           03 8600 9995 <br>
-          paul@chwyla.com.au
+          paul@chwyla.com.au</p>
         
         <div className='form__row'>
           <input type='text' name='first_name' placeholder='First Name' onChange={this.handleChange} required />
