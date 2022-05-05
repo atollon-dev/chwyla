@@ -61,9 +61,9 @@ class Form extends Component {
     return (
       <form {...props}>
         <p>P.O. Box 200<br>
-          Doreen 3754</p> 
+          Doreen 3754
           <br>
-          <p>03 8600 9995 <br>
+          03 8600 9995 <br>
           paul@chwyla.com.au</p>
         
         <div className='form__row'>
