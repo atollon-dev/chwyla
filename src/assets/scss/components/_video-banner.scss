@@ -63,6 +63,11 @@
       height: auto;
       position: absolute;
       z-index: 1;
+      
+      p {
+        &:last-of-type {
+          margin-bottom: 30px;
+        }
 
       @include breakpoint (medium) {
         top: 50%;
