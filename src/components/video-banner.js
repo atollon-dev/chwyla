@@ -54,8 +54,7 @@ class Form extends Component {
       return (
         <div className='contact-form__success'>
           <h4>Confirmation</h4>
-          <p>Thanks your message has been sent. Any questions please dont’t hesitate to contact
-          Daniel Mulder <a href='tel:+61437171007'>0437 171 007</a></p>
+          <p>Thanks your message has been sent.</p>
         </div>
       )
 
