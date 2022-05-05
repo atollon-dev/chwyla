@@ -64,7 +64,7 @@ class Form extends Component {
           Doreen 3754 <br />
         <p>
           03 8600 9995 <br>
-          paul@chwyla.com.au<br /></p>
+          paul@chwyla.com.au<br />
         
         <div className='form__row'>
           <input type='text' name='first_name' placeholder='First Name' onChange={this.handleChange} required />
