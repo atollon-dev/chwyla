@@ -61,7 +61,16 @@ class Form extends Component {
 
     return (
       <form {...props}>
-        <h4>Register your interest.</h4>
+        <p>P.O. Box 200 </br>
+          Doreen 3754 </br>
+          </br>
+          </br>
+          03 8600 9995</br>
+          paul@chwyla.com.au</p>
+          </br>
+          </br>
+          </br>
+          </br>
         <div className='form__row'>
           <input type='text' name='first_name' placeholder='First Name' onChange={this.handleChange} required />
         </div>
@@ -125,7 +134,7 @@ class VideoBanner extends Component {
             </div>
             <div className="text-first">
               <button className='btn' onClick={() => this._toggleForm()}>View Listing</button>
-              <button className='btn' onClick={() => this._toggleForm()}>Contact</button>>
+              <button className='btn' onClick={() => this._toggleForm()}>Contact</button>
             </div>
           </div>
         </div>
