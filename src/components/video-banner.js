@@ -123,7 +123,7 @@ class VideoBanner extends Component {
               <img className="image-first" src={Logo} alt="Chwyla"/>
             </div>
             <div className="text-first">
-            <button className='btn' onClick={() => this._toggleForm()}>View Listing</button>
+            <a className='btn' href ="https://www.realestate.com">View Listing</a>
               <button className='btn' onClick={() => this._toggleForm()}>Contact</button>
 
               
