@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Video from '../assets/images/banner.mp4'
+import Video from 'https://lbdvideos.s3.ap-southeast-2.amazonaws.com/CHWYLA+PRESENTATION+NO+TEXT+LOW+RES.mp4'
 import Logo from '../assets/images/logo.png'
 
 function encode(data) {
