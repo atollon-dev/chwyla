@@ -118,7 +118,7 @@ class VideoBanner extends Component {
       <>
         <div className="video-banner">
           <div className="video-banner__inner">
-            <video autoplay="autoplay" muted="muted" playsinline="playsinline" loop="loop" src="https://lbdvideos.s3.ap-southeast-2.amazonaws.com/CHWYLA+PRESENTATION+NO+TEXT+LOW+RES.mp4"></video>
+            <video autoplay="autoplay" muted="muted" playsinline="playsinline" loop="loop" src={Video}></video>
             <div className="content">
               <img className="image-first" src={Logo} alt="Chwyla"/>
             </div>
