@@ -64,8 +64,8 @@ class Form extends Component {
       <div className='contact-form__content'>
     <p>P.O. Box 200<br />
     Doreen 3754</p>
-    <p><a href="tel:+61386009995" style="color:#636363">03 8600 9995</a><br />
-    <a href="mailto:paul@chwyla.com.au"style="color:#636363">paul@chwyla.com.au</a></p>
+    <p><a href="tel:+61386009995" >03 8600 9995</a><br />
+    <a href="mailto:paul@chwyla.com.au">paul@chwyla.com.au</a></p>
 </div>
         
         <div className='form__row'>
