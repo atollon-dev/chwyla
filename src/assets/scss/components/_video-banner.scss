@@ -28,6 +28,7 @@
       }
       a {
         color: #e2ded5;
+        text-decoration: underline;
       }
 
       @include breakpoint (medium) {
