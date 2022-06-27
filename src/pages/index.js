@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <>
-    <SEO title="Home" />
+    <SEO title="CHWYLA" />
   </>
 )
 

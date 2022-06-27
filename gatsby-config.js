@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Chwyla - Real Estate`,
     description: '',
-    author: `@CodeDrips`,
+    author: `@Atollon`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
