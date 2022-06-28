@@ -1,12 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
+
 import '../assets/scss/main.scss'
 
-class Layout extends Component {
+const Layout = ({ children }) => (
+	<main>{ children }</main>
+)
 
-  render() {
-    return (
-      <main>{ children }</main>
-    )
-  }
-}
 export default Layout
